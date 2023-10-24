@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bong1"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/suds"
+        android:letterSpacing=".1"
+        android:shadowColor="#f8af8b"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/about"
+        android:textAllCaps="true"
+        android:textColor="#6995f3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bong2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/suds"
+        android:layout_margin="15dp"
+        android:letterSpacing=".1"
+        android:shadowColor="#f8af8b"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/mg"
+        android:textAllCaps="true"
+        android:textColor="#6995f3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
